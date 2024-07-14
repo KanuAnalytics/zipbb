@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    working_dir: /app/frontend
+    depends_on:
+      - backend
+      - zipbb
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    working_dir: /app/backend
+    depends_on:
+      - zipbb
+
+  zipbb:
+    build:
+      context: .
+      dockerfile: zipbb/Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app/zipbb
