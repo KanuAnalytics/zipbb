@@ -9,7 +9,10 @@ setup(
             'zipbb=zipbb.parser:main',
         ],
     },
-    install_requires=[],
+    install_requires=[
+        'networkx',
+        'matplotlib'
+    ],
     description='A tool to parse .zipbb files and extract script data',
     author='teamGreenVenom',
     # author_email='team@venom.green',

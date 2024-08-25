@@ -1,4 +1,2 @@
-# Add your file and directory paths here 1 file or directory per line
-# Comments start with a hash
-# Example:
-requirements.txt
+# Add your file and directory paths here
+zipbb/

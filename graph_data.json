@@ -1,0 +1,52 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "weight": 0.0,
+            "id": "zipbb/__init__.py"
+        },
+        {
+            "id": "zipbb"
+        },
+        {
+            "weight": 0.4142026175472613,
+            "id": "zipbb/graph_creator.py"
+        },
+        {
+            "weight": 1.0,
+            "id": "zipbb/parser.py"
+        },
+        {
+            "weight": 0.8763936015511391,
+            "id": "zipbb/function_graph_creator.py"
+        },
+        {
+            "weight": 0.015511391177896268,
+            "id": "zipbb/__main__.py"
+        }
+    ],
+    "links": [
+        {
+            "source": "zipbb",
+            "target": "zipbb/__init__.py"
+        },
+        {
+            "source": "zipbb",
+            "target": "zipbb/graph_creator.py"
+        },
+        {
+            "source": "zipbb",
+            "target": "zipbb/parser.py"
+        },
+        {
+            "source": "zipbb",
+            "target": "zipbb/function_graph_creator.py"
+        },
+        {
+            "source": "zipbb",
+            "target": "zipbb/__main__.py"
+        }
+    ]
+}
