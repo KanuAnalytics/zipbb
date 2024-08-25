@@ -1,0 +1,549 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "weight": 1,
+            "defined_in": "zipbb/graph_creator.py",
+            "id": "create_graph"
+        },
+        {
+            "id": "zipbb/parser.py"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/graph_creator.py",
+            "id": "save_graph_to_json"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/graph_creator.py",
+            "id": "load_graph_from_json"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/graph_creator.py",
+            "id": "plot_graph"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "DiGraph"
+        },
+        {
+            "id": "zipbb/graph_creator.py"
+        },
+        {
+            "id": "zipbb/function_graph_creator.py"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "node_link_data"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "node_link_graph"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "spring_layout"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "draw"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "savefig"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "show"
+        },
+        {
+            "weight": 3,
+            "defined_in": "imported_or_external",
+            "id": "add_node"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "dirname"
+        },
+        {
+            "weight": 9,
+            "defined_in": "imported_or_external",
+            "id": "open"
+        },
+        {
+            "weight": 3,
+            "defined_in": "imported_or_external",
+            "id": "dump"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "load"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "add_edge"
+        },
+        {
+            "weight": 4,
+            "defined_in": "imported_or_external",
+            "id": "get"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "has_node"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/parser.py",
+            "id": "read_zipbb_file"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/parser.py",
+            "id": "get_all_files"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/parser.py",
+            "id": "extract_script_data"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/parser.py",
+            "id": "write_json"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/parser.py",
+            "id": "create_zipbb_file"
+        },
+        {
+            "weight": 2,
+            "defined_in": "zipbb/parser.py",
+            "id": "main"
+        },
+        {
+            "id": "zipbb/__main__.py"
+        },
+        {
+            "weight": 7,
+            "defined_in": "imported_or_external",
+            "id": "print"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "ArgumentParser"
+        },
+        {
+            "weight": 2,
+            "defined_in": "imported_or_external",
+            "id": "add_argument"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "parse_args"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "isfile"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "max"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "write"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "exists"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "strip"
+        },
+        {
+            "weight": 6,
+            "defined_in": "imported_or_external",
+            "id": "append"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "isdir"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "dumps"
+        },
+        {
+            "weight": 3,
+            "defined_in": "imported_or_external",
+            "id": "walk"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "len"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/function_graph_creator.py",
+            "id": "extract_function_data"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/function_graph_creator.py",
+            "id": "create_function_graph"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/function_graph_creator.py",
+            "id": "save_function_graph_to_json"
+        },
+        {
+            "weight": 1,
+            "defined_in": "zipbb/function_graph_creator.py",
+            "id": "plot_function_graph"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "startswith"
+        },
+        {
+            "weight": 3,
+            "defined_in": "imported_or_external",
+            "id": "read"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "relpath"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "basename"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "join"
+        },
+        {
+            "weight": 0,
+            "defined_in": "zipbb/function_graph_creator.py",
+            "id": "load_function_graph_from_json"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "items"
+        },
+        {
+            "weight": 1,
+            "defined_in": "imported_or_external",
+            "id": "parse"
+        },
+        {
+            "weight": 4,
+            "defined_in": "imported_or_external",
+            "id": "isinstance"
+        }
+    ],
+    "links": [
+        {
+            "source": "zipbb/parser.py",
+            "target": "create_graph"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "save_graph_to_json"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "load_graph_from_json"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "plot_graph"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "open"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "dump"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "read_zipbb_file"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "get_all_files"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "extract_script_data"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "write_json"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "create_zipbb_file"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "main"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "print"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "ArgumentParser"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "add_argument"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "parse_args"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "isfile"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "max"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "write"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "exists"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "strip"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "append"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "isdir"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "dumps"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "walk"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "len"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "startswith"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "read"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "relpath"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "basename"
+        },
+        {
+            "source": "zipbb/parser.py",
+            "target": "join"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "DiGraph"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "node_link_data"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "node_link_graph"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "spring_layout"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "draw"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "savefig"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "show"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "add_node"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "dirname"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "open"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "dump"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "load"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "add_edge"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "get"
+        },
+        {
+            "source": "zipbb/graph_creator.py",
+            "target": "has_node"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "DiGraph"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "node_link_data"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "node_link_graph"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "spring_layout"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "draw"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "savefig"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "show"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "add_node"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "open"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "dump"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "load"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "add_edge"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "get"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "print"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "append"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "walk"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "read"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "items"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "parse"
+        },
+        {
+            "source": "zipbb/function_graph_creator.py",
+            "target": "isinstance"
+        },
+        {
+            "source": "zipbb/__main__.py",
+            "target": "main"
+        }
+    ]
+}
